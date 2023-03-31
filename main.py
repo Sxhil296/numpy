@@ -29,3 +29,9 @@ print(arr2D.ndim) #to check the number of dimensions
 arr3D = np.array([[[1,2,3], [4,5,6], [7,8,9]]])
 print(arr3D)
 print(arr3D.ndim) #to check the number of dimensions
+
+
+#higher dimensional arrays
+arrHD = np.array([1, 2, 3, 4, 5], ndmin=5) #define the number of dimensions by using the ndmin argument
+print(arrHD)
+print(f'number of dimensions: {arrHD.ndim}')
