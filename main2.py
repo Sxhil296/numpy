@@ -15,13 +15,15 @@ print(arr[2] + arr[3])  # adding two elements using their index
 arr2D = np.array([[1, 2, 3], [4, 5, 6]])
 print(arr2D)
 print(arr2D[0, 1])  # prints second element of first row
+arr2dd = np.array([[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]])
+print(f'Last element from the 2nd dim: {arr2dd[1, -1]}')
+
 
 # access 3D arrays
 arr3D = np.array([[[1, 2, 3], [4, 5, 6], [7, 8, 9]]])
 print(arr3D)
 print(arr3D.ndim)
 print(arr3D[0, 1, 2])
-
 
 arr3dd = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [10, 11, 12]]])
 print(arr3dd)
